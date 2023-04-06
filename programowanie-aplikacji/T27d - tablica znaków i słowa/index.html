@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Zadanie T27d</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Zadanie T27d tablica znaków i słowa</h1>
+<h3>Autor: Przemek Klara 2ir</h3>
+<hr>
+<section>
+    <h1>Generowanie losowych słów</h1>
+
+    <p>Wprowadź 10 znaków:</p>
+    <input type="text" id="znakiInput"><br><br>
+
+    <p>Wybierz długość słów i ilość słów do wygenerowania:</p>
+    <input type="number" id="dlugoscInput" placeholder="Długość słów"><br>
+    <input type="number" id="iloscInput" placeholder="Ilość słów"><br><br>
+
+    <button onclick="generuj()">Generuj</button><br><br>
+
+    <p>Wzorcowe 10-znakowe słowa:</p>
+    <table id="tabelaZnaki" border="1"></table><br>
+
+    <p>Wygenerowane słowa:</p>
+    <table id="tabelaSlowa" border="1"></table>
+
+</section>
+<script src="main.js"></script>
+</body>
+</html>
